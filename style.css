@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+
+:root {
+    --dark-01: #181818;
+    --dark-02: #474747;
+    --dark-03: #757575;
+    --orange-01: #FD6E0A;
+    --white-01: #ffffff;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.flexbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-theme {
+    border-radius: 5px;
+    background-color: var(--orange-01);
+    border: 0;
+    color: var(--white-01);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 35px;
+}
+.btn-theme-outline {
+    border: 1px solid var(--orange-01);
+    background-color: transparent;
+    color: var(--orange-01);
+    margin-left: 30px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--dark-01);
+    font-weight: 700;
+}
+
+p {
+    color: var(--dark-03);
+}
+
+/* navbar related styles */
+header {
+    background: #FFF8F3;
+}
+h1 {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+h1 span {
+    color: var(--orange-01);
+}
+nav {
+    padding: 34px 110px 50px 110px;
+}
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: var(--dark-02);
+}
+nav li button {
+    padding: 18px 35px;
+}
+
+/* Banner related styles */
+.content {
+    padding-left: 110px;
+}
+.content span {
+    font-size: 45px;
+    font-weight: 600;
+    color: var(--dark-02);
+}
+.content h2 {
+    font-size: 85px;
+    color: var(--dark-01);
+    margin-bottom: 20px;
+}
+.content p {
+    margin-bottom: 30px;
+}

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frontend Developer Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ca36695825.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -24,8 +25,8 @@
                 <h2 class="mb-20">Mary Hardy</h2>
                 <p class="mb-30">Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to society
                     behaved moments.</p>
-                <button class="btn-theme">Download CV</button>
-                <button class="btn-theme btn-theme-outline">Contact</button>
+                <button class="btn-theme"><i class="fas fa-download"></i> Download CV</button>
+                <button class="btn-theme btn-theme-outline"><i class="fas fa-phone-alt"></i> Contact</button>
             </div>
             <img src="./images/hardy.png" width="584" height="676" alt="Hardy">
         </div>
@@ -63,7 +64,7 @@
                 <h3>What I do</h3>
                 <p class="title-description mx-auto mt-30 mb-30">I have more than 10 years experience building software for clients all over the world. Below is a quick overview of my main technical skill sets and technologies i use. Want to find out more about my experience? Check out my online resume and project portfolio.</p>
             </section>
-            <section class="skill flexbox">
+            <section class="skill flexbox mt-50">
                 <div class="skill-content">
                     <img class="mb-30" src="./images/icons/js.png" alt="js">
                     <h5 class="mb-20">Vanila Javascript</h5>
@@ -86,8 +87,93 @@
                 </div>
             </section>
         </article>
+        <article class="resume container mb-130">
+            <section class="title text-center mx-auto">
+                <h3>A summary of My Resume</h3>
+            </section>
+            <section class="resume flexbox">
+                <div class="resume-column">
+                    <h3 class="mb-30">My Education</h3>
+                    <div class="resume-content mb-30">
+                        <h4 class="mb-10">Master in Computer Engineering</h4>
+                        <h5 class="mb-20">Harvard University / 2015 - 2017</h5>
+                        <p class="mb-30">List skill/technologies here. You can change the icon above 
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                        <hr>
+                    </div>
+                    <div class="resume-content mb-30">
+                        <h4 class="mb-10">Master in Computer Engineering</h4>
+                        <h5 class="mb-20">Harvard University / 2015 - 2017</h5>
+                        <p class="mb-30">List skill/technologies here. You can change the icon above 
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                        <hr>
+                    </div>
+                    <div class="resume-content mb-30">
+                        <h4 class="mb-10">Master in Computer Engineering</h4>
+                        <h5 class="mb-20">Harvard University / 2015 - 2017</h5>
+                        <p class="mb-30">List skill/technologies here. You can change the icon above 
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    </div>
+                </div>
+                <div class="resume-column">
+                    <h3 class="mb-30">My Experience</h3>
+                    <div class="resume-content mb-30">
+                        <h4 class="mb-10">Sr. Font End Developer</h4>
+                        <h5 class="mb-20">Apple Inc / 2020 - Current</h5>
+                        <p class="mb-30">List skill/technologies here. You can change the icon above 
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                        <hr>
+                    </div>
+                    <div class="resume-content mb-30">
+                        <h4 class="mb-10">Jr. Font End Developer</h4>
+                        <h5 class="mb-20">Dribbble Inc / 2018 - 2022</h5>
+                        <p class="mb-30">List skill/technologies here. You can change the icon above 
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                        <hr>
+                    </div>
+                    <div class="resume-content mb-30">
+                        <h4 class="mb-10">HTML Developer</h4>
+                        <h5 class="mb-20">Adobe Inc / 2017 - 2018</h5>
+                        <p class="mb-30">List skill/technologies here. You can change the icon above 
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    </div>
+                </div>
+            </section>
+            <div class="download-cv text-center mt-50">
+                <button class="btn-theme"><i class="fas fa-download"></i> Download CV</button>
+            </div>
+        </article>
     </main>
-    <footer></footer>
+    <footer class="bg-main">
+        <article class="container">
+            <div class="footer-container">
+                <div class="footer-column">
+                    <h3 class="mb-20">Lets Connect</h3>
+                    <p class="mb-30">Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+                    <ul>
+                        <li class="list-style-none"><a href="#"><img src="./images/icons/facebook.png" alt=""></a></li>
+                        <li class="list-style-none"><a href="#"><img src="./images/icons/twitter.png" alt=""></a></li>
+                        <li class="list-style-none"><a href="#"><img src="./images/icons/insta.png" alt=""></a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3 class="mb-30">Let’s Message me</h3>
+                    <form>
+                        <label for="username">
+                            <input type="text" name="" id="username" placeholder="Your name">
+                        </label>
+                        <label for="useremail">
+                            <input type="email" name="" id="useremail" placeholder="Your email">
+                        </label>
+                        <label for="textdetails">
+                            <textarea placeholder="Message" name="" id="textdetails" cols="30" rows="10"></textarea>
+                        </label>
+                        <input type="submit" class="btn-theme" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </article>
+    </footer>
 </body>
 
 </html>

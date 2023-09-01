@@ -257,3 +257,42 @@ input[type="text"], input[type="email"] {
 textarea {
     padding-top: 18px;
 }
+
+/* Responsive */
+
+@media screen and (max-width: 576px) {
+    header {
+        background-image: none;
+    }
+    .banner {
+        flex-direction: column-reverse;
+    }
+    nav li {
+        margin-left: 0;
+    }
+    .btn-theme-outline {
+        margin: 1rem 0;
+    }
+    .banner img {
+        width: 100%;
+    }
+    .about {
+        padding: 0.5rem;
+    }
+    .skill, .resume, footer, .info, nav {
+        flex-direction: column;
+    }
+    .title-description {
+        max-width: 100%;
+        padding: 0.5rem;
+    }
+    .footer-container {
+        flex-direction: column-reverse;
+    }
+    .footer-column {
+        width: 100%;
+    }
+    input[type="text"], input[type="email"], textarea {
+        width: 80%;
+    }
+}
